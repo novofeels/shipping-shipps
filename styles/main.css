@@ -1,0 +1,61 @@
+/* CSS */
+
+.details__haulers,
+.details__docks,
+.details__shipping-ships {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px
+}
+
+.details__haulers h2,
+.details__docks h2,
+.details__shipping-ships h2 {
+  margin-top: 0;
+}
+
+.details__haulers ul,
+.details__docks ul,
+.details__shipping-ships ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details__haulers li,
+.details__docks li,
+.details__shipping-ships li {
+  margin-bottom: 5px;
+}
+
+.ship-name,
+.hauler-name,
+.dock-name {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background-color: aquamarine;
+}
+
+.shipbox,
+.haulerbox,
+.dockbox {
+    background-color: blue;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 20px
+}
+
+
+body {
+    background-image: url('../img/Steamboat_Willie_itself.webp');
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white
+}
